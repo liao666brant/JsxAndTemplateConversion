@@ -1,0 +1,22 @@
+{
+  "name": "JsxAndTemplateConvert",
+  "logo": "logo.png",
+  "preload": "preload.js",
+  "features": [
+    {
+      "code": "JsxAndTemplateConvert",
+      "explain": "JSX and template convert",
+      "cmds": [
+        "jsx",
+        "template",
+        "convert",
+        {
+          "type": "over",
+          "label": "jsx和template语法转换",
+          "exclude": "/xxx/",
+          "minLength": 5
+        }
+      ]
+    }
+  ]
+}

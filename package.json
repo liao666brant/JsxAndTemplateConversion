@@ -1,0 +1,20 @@
+{
+  "name": "jsxandtemplateconversion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "preload.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.mjs",
+    "build:w": "rollup -c rollup.config.mjs --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "radash": "^12.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.18.0"
+  }
+}
